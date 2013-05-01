@@ -1,0 +1,326 @@
+digraph Mermaids {
+    graph [compound = true];
+    
+    subgraph clusterAmore {
+        label = Amore;
+        Rosalie;
+    }
+    Rosalie -> Nadine [lhead = clusterCalypso];
+
+    subgraph clusterAqua {
+        label = Aqua;
+        Taleen [color = steelblue2];
+        Liana [style = bold color = firebrick];
+    }
+    Taleen -> Celeste [color = steelblue2];
+    Liana -> Claudia [color = firebrick];
+    
+    subgraph clusterAries {
+        label = Aries;
+        Gabrielle [color = orangered];
+    }
+    Gabrielle -> Eloise [color = orangered];
+    
+    subgraph clusterBelladonna {
+        label = Belladonna;
+        Danielle [color = maroon3];
+    }
+    Danielle -> Nima [color = maroon3];
+    
+    subgraph clusterBlueBelle {
+        label = "Blue Belle";
+        Makenna [color = steelblue2];
+    }
+    Makenna -> Lillian [color = steelblue2];
+    
+    subgraph clusterBlueNova {
+        label = "Blue Nova";
+        Iva;
+    }
+    Iva -> Sheena [lhead = clusterEmber];
+    Bianca -> Iva [ltail = clusterElectra color = red style = dotted arrowhead = inv];
+    
+    subgraph clusterCalypso {
+        label = Calypso;
+        Nadine [color = maroon3];
+    }
+    Nadine -> Misty [color = maroon3];
+    
+    subgraph clusterCarbonNight {
+        label = "Carbon Night";
+        Ada [color = indigo];
+        Tej [style = bold];
+    }
+    Ada -> Inez [color = indigo];
+    Tej -> Suzi [lhead = clusterCharmingViolet];
+    
+    subgraph clusterCelestia {
+        label = Celestia;
+        Charlotte [style = bold];
+    }
+    Charlotte -> Tej [lhead = clusterCarbonNight];
+    
+    subgraph clusterCharmingViolet {
+        label = "Charming Violet";
+        Taryn [color = mediumpurple];
+        Suzi [style = bold];
+    }
+    Taryn -> Avery [color = mediumpurple];
+    Suzi -> Gemma [lhead = clusterSweetwater];
+    
+    subgraph clusterCitrine {
+        label = Citrine;
+        Audrey [color = firebrick];
+    }
+    Audrey -> Claudia [color = firebrick];
+    
+    subgraph clusterCoco {
+        label = Coco;
+        Nina;
+    }
+    Nina -> Inez [lhead = clusterIsis];
+    
+    subgraph clusterCoral {
+        label = Coral;
+        Claudia [color = firebrick];
+    }
+    Claudia -> Audrey [color = firebrick];
+   
+    subgraph clusterCrystalline {
+        label = Crystalline;
+        Tamara [color = indigo];
+    }
+    Tamara -> Joan [color = indigo];
+    
+    subgraph clusterDomino {
+        label = Domino;
+        Rena;
+    }
+    Rena -> Fern [lhead = clusterSeaDragon];
+    
+    subgraph clusterElectra {
+        label = Electra;
+        Bianca;
+    }
+    Bianca -> Iva [lhead = clusterBlueNova];
+    
+    subgraph clusterEmber {
+        label = Ember;
+        Sheena;
+    }
+    Sheena -> TEMPTRESS [lhead = clusterTemptress];
+    
+    subgraph clusterEmerald {
+        label = Emerald;
+        Uma;
+    }
+    Uma -> Leticia [lhead = clusterTropicana];
+    
+    subgraph clusterFuschia {
+        label = Fuschia;
+        Heidi [color = steelblue2];
+        Hayley [style = bold];
+    }
+    Heidi -> Lillian [color = steelblue2];
+    Hayley -> Celeste [lhead = clusterKelp];
+    
+    subgraph clusterGingerBlossom {
+        label = "Ginger Blossom";
+        Nima [color = maroon3];
+        Lena [color = orangered];
+    }
+    Nima -> Nadine [color = maroon3];
+    Lena -> Martine [color = orangered];
+    
+    subgraph clusterGlimmerRose {
+        label = "Glimmer Rose"
+        Sterling;
+    }
+    Sterling -> Dawn [lhead = clusterSunkiss];
+    
+    subgraph clusterHarlequin {
+        label = Harlequin;
+        Tegan [color = dodgerblue3];
+    }
+    Tegan -> Sydney [color = dodgerblue3];
+    
+    subgraph clusterHoneyDew {
+        label = "Honey Dew";
+        Paula;
+    }
+    Paula -> Demi [lhead = clusterSeafoam];
+    
+    subgraph clusterInky {
+        label = Inky;
+        Eloise [color = orangered];
+    }
+    Eloise -> Alma [color = orangered];
+    
+    subgraph clusterIsis {
+        label = Isis;
+        Inez [color = indigo];
+    }
+    Inez -> Tamara [color = indigo];
+    
+    subgraph clusterKelp {
+        label = Kelp;
+        Brynn [color = chartreuse3];
+        Celeste [color = steelblue2];
+    }
+    Brynn -> Colette [color = chartreuse3];
+    Celeste -> Heidi [color = steelblue2];
+    
+    subgraph clusterKoi {
+        label = Koi;
+        Martine [color = orangered];
+    }
+    Martine -> Alma [color = orangered];
+    
+    subgraph clusterLimelight {
+        label = Limelight;
+        Alma [color = orangered];
+    }
+    Alma -> Martine [color = orangered];
+    
+    subgraph clusterLotus {
+        label = Lotus;
+        Selena;
+    }
+    Selena -> Makenna [lhead = clusterBlueBelle];
+    
+    subgraph clusterLuau {
+        label = Luau;
+        Lexi [color = chartreuse3];
+    }
+    Lexi -> Colette [color = chartreuse3];
+    
+    subgraph clusterLum {
+        label = Lum;
+        Mary;
+    }
+    Mary -> Demi [lhead = clusterSeafoam];
+    Paula -> Mary [ltail = clusterHoneyDew color = red style = dotted arrowhead = inv];
+    
+    subgraph clusterMarigold {
+        label = Marigold;
+        Joan [color = indigo];
+    }
+    Joan -> Carmel [color = indigo];
+    
+    subgraph clusterMint {
+        label = Mint;
+        Mentha;
+    }
+    Mentha -> Selena [lhead = clusterLotus];
+    
+    subgraph clusterOnyx {
+        label = Onyx;
+        Heather [color = chartreuse3];
+    }
+    Heather -> Molly [color = chartreuse3];
+    
+    subgraph clusterOpal {
+        label = Opal;
+        Colette [color = chartreuse3];
+    }
+    Colette -> Heather [color = chartreuse3];
+    
+    subgraph clusterPisces {
+        label = Pisces;
+        Velma;
+    }
+    Velma -> Beatrice [lhead = clusterSilverSong];
+    
+    subgraph clusterSeaDragon {
+        label = "Sea Dragon"
+        Fern;
+    }
+    Fern -> Martine [lhead = clusterKoi];
+    Alma -> Fern [ltail = clusterLimelight color = red style = dotted arrowhead = inv];
+    
+    subgraph clusterSeafoam {
+        label = Seafoam;
+        Demi;
+    }
+    Demi -> Joan [lhead = clusterMarigold];
+    
+    subgraph clusterSilverSong {
+        label = "Silver Song";
+        Beatrice;
+    }
+    Beatrice -> Leticia [lhead = clusterTropicana];
+    
+    subgraph clusterSparklePinkle {
+        label = "Sparkle Pinkle";
+        Misty [style = bold color = maroon3];
+    }
+    Misty -> Nadine [color = maroon3];
+    
+    subgraph clusterStellaStar {
+        label = "Stella Star";
+        Aly;
+    }
+    Aly -> Sterling [lhead = clusterGlimmerRose];
+    
+    subgraph clusterStinger {
+        label = Stinger;
+        Carmel [color = indigo];
+    }
+    Carmel -> Ada [color = indigo];
+    
+    subgraph clusterSunkiss {
+        label = Sunkiss;
+        Dawn [color = maroon3];
+    }
+    Dawn -> Nadine [color = maroon3];
+    
+    subgraph clusterSunStar {
+        label = "Sun Star";
+        Zola [color = dodgerblue3];
+    }
+    Zola -> Sydney [color = dodgerblue3];
+    
+    subgraph clusterSweetwater {
+        label = Sweetwater;
+        Gemma;
+    }
+    Gemma -> Sterling [lhead = clusterGlimmerRose];
+    
+    subgraph clusterTigerLily {
+        label = "Tiger Lily";
+        Lillian [color = steelblue2];
+        Molly [color = chartreuse3];
+    }
+    Lillian -> Makenna [color = steelblue2];
+    Molly -> Lexi [color = chartreuse3];
+    
+    subgraph clusterTigra {
+        label = Tigra;
+        Melinda;
+    }
+    Melinda -> Nina [lhead = clusterCoco];
+    
+    subgraph clusterTropicana {
+        label = Tropicana;
+        Leticia [color = dodgerblue3];
+    }
+    Leticia -> Sydney [color = dodgerblue3];
+    
+    subgraph clusterTwinkletail {
+        label = Twinkletail;
+        Sydney [color = dodgerblue3];
+    }
+    Sydney -> Leticia [color = dodgerblue3];
+    
+    subgraph clusterVapor {
+        label = Vapor;
+        Pippa [color = dodgerblue3];
+    }
+    Pippa -> Tegan [color = dodgerblue3];
+    
+    subgraph clusterVelvetTwist {
+        label = "Velvet Twist";
+        Avery [color = mediumpurple];
+    }
+    Avery -> Taryn [color = mediumpurple];
+}

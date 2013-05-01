@@ -1,0 +1,272 @@
+digraph Fish {
+    graph [compound = true];
+    
+    subgraph clusterAdventure {
+        label = Adventure;
+        Magellan [color = dodgerblue];
+    }
+    Magellan -> Confetti [color = dodgerblue];
+    
+    subgraph clusterArtist {
+        label = Artist;
+        Azure;
+    }
+    Azure -> Stinkfin [lhead = clusterHobo];
+    Christina -> Azure [ltail = clusterPopStar color = red style = dotted arrowhead = inv];
+    
+    subgraph clusterAstronaut {
+        label = Astronaut;
+        Buzz [color = blue];
+    }
+    Buzz -> Abe [color = blue];
+    
+    subgraph clusterBrave {
+        label = Brave;
+        Hercules [color = orange];
+        Lancelot [style = bold color = cyan3];
+    }
+    Hercules -> Loonygill [color = orange];
+    Lancelot -> Darwin [color = cyan3];
+    
+    subgraph clusterCheerleader {
+        label = Cheerleader;
+        Betsi [color = violetred3];
+    }
+    Betsi -> Goldie [color = violetred3];
+    
+    subgraph clusterClown {
+        label = Clown;
+        Confetti [color = dodgerblue];
+    }
+    Confetti -> Figment [color = dodgerblue];
+    
+    subgraph clusterCool {
+        label = Cool;
+        Chief;
+    }
+    Chief -> Flora [lhead = clusterDancer];
+    Betsi -> Chief [ltail = clusterCheerleader color = red style = dotted arrowhead = inv];
+    
+    subgraph clusterCowboy {
+        label = Cowboy;
+        Dusty;
+    }
+    Dusty -> Buzz [lhead = clusterAstronaut];
+    
+    subgraph clusterCrazy {
+        label = Crazy;
+        Loonygill [color = orange];
+    }
+    Loonygill -> Harmony [color = orange];
+    
+    subgraph clusterCreative {
+        label = Creative;
+        Figment [color = dodgerblue];
+        Wonder [style = bold];
+    }
+    Figment -> Cleopatra [color = dodgerblue];
+    Wonder -> Tyson [lhead = clusterTough];
+    Sneakygill -> Wonder [ltail = clusterRobber style = dotted arrowhead = inv color = red];
+    
+    subgraph clusterDancer {
+        label = Dancer;
+        Flora [color = violetred3];
+    }
+    Flora -> Betsi [color = violetred3];
+    
+    subgraph clusterDreamy {
+        label = Dreamy;
+        Misty [color = mediumpurple];
+    }
+    Misty -> Giggles [color = mediumpurple];
+    
+    subgraph clusterEvil {
+        label = Evil;
+        Bane [color = dodgerblue];
+        Snidely;
+    }
+    Bane -> Confetti [color = dodgerblue];
+    Snidely -> Flora [lhead = clusterDancer];
+    
+    subgraph clusterFlirty {
+        label = Flirty;
+        Sassyfins [color = cyan3];
+    }
+    Sassyfins -> Marilyn [color = cyan3];
+    
+    subgraph clusterFunny {
+        label = Funny;
+        Giggles [color = mediumpurple];
+    }
+    Giggles -> Misty [color = mediumpurple];
+    
+    subgraph clusterGossamer {
+        label = Gossamer;
+        Sora [color = dodgerblue];
+    }
+    Sora -> Cleopatra [color = dodgerblue];
+    
+    subgraph clusterGossip {
+        label = Gossip;
+        Lulu [style = bold];
+        Trixie;
+    }
+    Lulu -> Madison [lhead = clusterParty];
+    Trixie -> Giggles [lhead = clusterFunny];
+    
+    subgraph clusterGreedy {
+        label = Greedy;
+        Hungerfin [color = cyan3];
+    }
+    Hungerfin -> Darwin [color = cyan3];
+    
+    subgraph clusterHobo {
+        label = Hobo;
+        Stinkfin;
+    }
+    Stinkfin -> Christina [lhead = clusterPopStar];
+    
+    subgraph clusterMadScientist {
+        label = "Mad Scientist";
+        Destructo [color = blue];
+    }
+    Destructo -> Abe [color = blue];
+    
+    subgraph clusterMean {
+        label = Mean;
+        Rascal [color = orange];
+    }
+    Rascal -> Loonygill [color = orange];
+    
+    subgraph clusterModel {
+        label = Model;
+        Persephone;
+    }
+    Persephone -> NINJA [lhead = clusterNinja];
+    
+    subgraph clusterMovieStar {
+        label = "Movie Star";
+        Vivien [color = blue];
+        Goldie [color = violetred3];
+    }
+    Vivien -> Abe [color = blue];
+    Goldie -> Betsi [color = violetred3];
+    
+    subgraph clusterNerdy {
+        label = Nerdy;
+        Melvin [color = mediumpurple];
+    }
+    Melvin -> Misty [color = mediumpurple];
+    
+    subgraph clusterNice {
+        label = Nice;
+        Harmony [color = orange];
+        Flo [style = bold color = orange];
+    }
+    Harmony -> Hercules [color = orange];
+    Flo -> Rascal [color = orange];
+    
+    subgraph clusterPaparazzi {
+        label = Paparazzi;
+        Quickfin [color = chocolate4];
+    }
+    Quickfin -> Tyson [color = chocolate4];
+    
+    subgraph clusterParty {
+        label = Party;
+        Madison;
+    }
+    Madison -> Snidely [lhead = clusterEvil];
+    
+    subgraph clusterPirate {
+        label = Pirate;
+        "Cap'n" [color = blue];
+        Scalebeard;
+    }
+    "Cap'n" -> Vivien [color = blue];
+    Scalebeard -> Persephone [lhead = clusterModel];
+    
+    subgraph clusterPopStar {
+        label = "Pop Star";
+        Christina [color = chocolate4];
+    }
+    Christina -> Sneakygill [color = chocolate4];
+    
+    subgraph clusterPresident {
+        label = President;
+        Abe [style = bold color = blue];
+        Bill;
+    }
+    Abe -> "Cap'n" [color = blue];
+    Bill -> Hoaxy [lhead = clusterSalesman];
+    
+    subgraph clusterPretty {
+        label = Pretty;
+        Cleopatra [color = dodgerblue];
+        Marilyn [color = cyan3];
+    }
+    Cleopatra -> Magellan [color = dodgerblue];
+    Marilyn -> Darwin [color = cyan3];
+    
+    subgraph clusterRebel {
+        label = Rebel;
+        Dean [color = chocolate4];
+    }
+    Dean -> Tyson [color = chocolate4];
+    
+    subgraph clusterRobber {
+        label = Robber;
+        Sneakygill [color = chocolate4];
+    }
+    Sneakygill -> Hoaxy [color = chocolate4];
+    
+    subgraph clusterRockStar {
+        label = "Rock Star";
+        Shred;
+    }
+    Shred -> Persephone [lhead = clusterModel];
+    
+    subgraph clusterSalesman {
+        label = Salesman;
+        Hoaxy [color = chocolate4];
+    }
+    Hoaxy -> Quickfin [color = chocolate4];
+    
+    subgraph clusterSecretAgent {
+        label = "Secret Agent";
+        Austin;
+    }
+    Austin -> Persephone [lhead = clusterModel];
+    
+    subgraph clusterShy {
+        label = Shy;
+        Squishy [color = orange];
+    }
+    Squishy -> Harmony [color = orange];
+    
+    subgraph clusterSmart {
+        label = Smart;
+        Darwin [color = cyan3];
+    }
+    Darwin -> Sassyfins [color = cyan3];
+    
+    subgraph clusterSun {
+        label = Sun;
+        Sonny;
+    }
+    Sonny -> Madison [lhead = clusterParty];
+    
+    subgraph clusterTough {
+        label = Tough;
+        Tyson [color = chocolate4];
+        Beefsteak [color = cyan3];
+    }
+    Tyson -> Dean [color = chocolate4];
+    Beefsteak -> Sassyfins [color = cyan3];
+    
+    subgraph clusterToy {
+        label = Toy;
+        Playmobil [color = blue];
+    }
+    Playmobil -> "Cap'n" [color = blue];
+}
