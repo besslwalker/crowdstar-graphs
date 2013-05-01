@@ -187,10 +187,8 @@ digraph Fish {
     subgraph clusterPirate {
         label = Pirate;
         "Cap'n" [color = blue];
-        Scalebeard;
     }
     "Cap'n" -> Vivien [color = blue];
-    Scalebeard -> Persephone [lhead = clusterModel];
     
     subgraph clusterPopStar {
         label = "Pop Star";
