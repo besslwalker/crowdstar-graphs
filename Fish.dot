@@ -76,9 +76,9 @@ digraph Fish {
     
     subgraph clusterDreamy {
         label = Dreamy;
-        Misty [color = mediumpurple];
+        Misty [color = mediumorchid];
     }
-    Misty -> Giggles [color = mediumpurple];
+    Misty -> Giggles [color = mediumorchid];
     
     subgraph clusterEvil {
         label = Evil;
@@ -94,9 +94,9 @@ digraph Fish {
     
     subgraph clusterFunny {
         label = Funny;
-        Giggles [color = mediumpurple];
+        Giggles [color = mediumorchid];
     }
-    Giggles -> Misty [color = mediumpurple];
+    Giggles -> Misty [color = mediumorchid];
     
     subgraph clusterGossamer {
         label = Gossamer;
@@ -138,9 +138,9 @@ digraph Fish {
     
     subgraph clusterModel {
         label = Model;
-        Persephone;
+        Persephone [color = darkslateblue];
     }
-    Persephone -> Ryu [lhead = clusterNinja];
+    Persephone -> Ryu [color = darkslateblue];
     
     subgraph clusterMovieStar {
         label = "Movie Star";
@@ -152,9 +152,9 @@ digraph Fish {
     
     subgraph clusterNerdy {
         label = Nerdy;
-        Melvin [color = mediumpurple];
+        Melvin [color = mediumorchid];
     }
-    Melvin -> Misty [color = mediumpurple];
+    Melvin -> Misty [color = mediumorchid];
     
     subgraph clusterNice {
         label = Nice;
@@ -166,9 +166,9 @@ digraph Fish {
     
     subgraph clusterNinja {
         label = Ninja;
-        Ryu;
+        Ryu [color = darkslateblue];
     }
-    Ryu -> Persephone [lhead = clusterModel];
+    Ryu -> Persephone [color = darkslateblue];
     
     subgraph clusterPaparazzi {
         label = Paparazzi;
@@ -224,9 +224,9 @@ digraph Fish {
     
     subgraph clusterRockStar {
         label = "Rock Star";
-        Shred;
+        Shred [color = darkslateblue];
     }
-    Shred -> Persephone [lhead = clusterModel];
+    Shred -> Persephone [color = darkslateblue];
     
     subgraph clusterSalesman {
         label = Salesman;
@@ -236,9 +236,9 @@ digraph Fish {
     
     subgraph clusterSecretAgent {
         label = "Secret Agent";
-        Austin;
+        Austin [color = darkslateblue];
     }
-    Austin -> Persephone [lhead = clusterModel];
+    Austin -> Persephone [color = darkslateblue];
     
     subgraph clusterShy {
         label = Shy;
@@ -274,9 +274,9 @@ digraph Fish {
     
     subgraph clusterWizard {
         label = Wizard;
-        Elminster;
+        Elminster [color = darkslateblue];
         Rincewind;
     }
-    Elminster -> Austin [lhead = clusterSecretAgent];
+    Elminster -> Austin [color = darkslateblue];
     Rincewind -> Stinkfin [lhead = clusterHobo];
 }
