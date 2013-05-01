@@ -142,7 +142,7 @@ digraph Fish {
         label = Model;
         Persephone;
     }
-    Persephone -> NINJA [lhead = clusterNinja];
+    Persephone -> Ryu [lhead = clusterNinja];
     
     subgraph clusterMovieStar {
         label = "Movie Star";
@@ -165,6 +165,12 @@ digraph Fish {
     }
     Harmony -> Hercules [color = orange];
     Flo -> Rascal [color = orange];
+    
+    subgraph clusterNinja {
+        label = Ninja;
+        Ryu;
+    }
+    Ryu -> Persephone [lhead = clusterModel];
     
     subgraph clusterPaparazzi {
         label = Paparazzi;
@@ -269,4 +275,12 @@ digraph Fish {
         Playmobil [color = blue];
     }
     Playmobil -> "Cap'n" [color = blue];
+    
+    subgraph clusterWizard {
+        label = Wizard;
+        Elminster;
+        Rincewind;
+    }
+    Elminster -> Austin [lhead = clusterSecretAgent];
+    Rincewind -> Stinkfin [lhead = clusterHobo];
 }
