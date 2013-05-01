@@ -83,10 +83,8 @@ digraph Fish {
     subgraph clusterEvil {
         label = Evil;
         Bane [color = dodgerblue];
-        Snidely;
     }
     Bane -> Confetti [color = dodgerblue];
-    Snidely -> Flora [lhead = clusterDancer];
     
     subgraph clusterFlirty {
         label = Flirty;
@@ -182,7 +180,7 @@ digraph Fish {
         label = Party;
         Madison;
     }
-    Madison -> Snidely [lhead = clusterEvil];
+    Madison -> Bane [lhead = clusterEvil];
     
     subgraph clusterPirate {
         label = Pirate;
