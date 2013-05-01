@@ -9,10 +9,8 @@ digraph Mermaids {
 
     subgraph clusterAqua {
         label = Aqua;
-        Taleen [color = steelblue2];
         Liana [style = bold color = firebrick];
     }
-    Taleen -> Celeste [color = steelblue2];
     Liana -> Claudia [color = firebrick];
     
     subgraph clusterAries {
@@ -83,8 +81,10 @@ digraph Mermaids {
     subgraph clusterCoral {
         label = Coral;
         Claudia [color = firebrick];
+        Caroline [style = bold color = steelblue2];
     }
     Claudia -> Audrey [color = firebrick];
+    Caroline -> Heidi [color = steelblue2];
    
     subgraph clusterCrystalline {
         label = Crystalline;
@@ -230,6 +230,12 @@ digraph Mermaids {
         Velma;
     }
     Velma -> Beatrice [lhead = clusterSilverSong];
+    
+    subgraph clusterRoseGold {
+        label = "Rose Gold";
+        Sherry;
+    }
+    Sherry -> Sydney [lhead = clusterTwinkletail];
     
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
