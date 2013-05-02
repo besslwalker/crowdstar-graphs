@@ -109,7 +109,7 @@ digraph Fish {
         Lulu [style = bold];
         Trixie;
     }
-    Lulu -> Madison [lhead = clusterParty];
+    Lulu -> Chloe [lhead = clusterParty];
     Trixie -> Giggles [lhead = clusterFunny];
     
     subgraph clusterGreedy {
@@ -178,9 +178,10 @@ digraph Fish {
     
     subgraph clusterParty {
         label = Party;
-        Madison;
+        Chloe;
     }
-    Madison -> Bane [lhead = clusterEvil];
+    Chloe -> Flora [lhead = clusterDancer];
+    Chief -> Chloe [ltail = clusterCool color = red style = dotted arrow = inv];
     
     subgraph clusterPirate {
         label = Pirate;
@@ -256,7 +257,7 @@ digraph Fish {
         label = Sun;
         Sonny;
     }
-    Sonny -> Madison [lhead = clusterParty];
+    Sonny -> Chloe [lhead = clusterParty];
     
     subgraph clusterTough {
         label = Tough;
