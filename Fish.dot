@@ -275,9 +275,7 @@ digraph Fish {
     
     subgraph clusterWizard {
         label = Wizard;
-        Elminster [color = darkslateblue];
         Rincewind;
     }
-    Elminster -> Austin [color = darkslateblue];
     Rincewind -> Stinkfin [lhead = clusterHobo];
 }
