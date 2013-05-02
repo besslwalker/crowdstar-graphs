@@ -198,10 +198,10 @@ digraph Fish {
     subgraph clusterPresident {
         label = President;
         Abe [style = bold color = blue];
-        Bill;
+        George;
     }
     Abe -> "Cap'n" [color = blue];
-    Bill -> Hoaxy [lhead = clusterSalesman];
+    George -> Goldie [lhead = clusterMovieStar];
     
     subgraph clusterPretty {
         label = Pretty;
