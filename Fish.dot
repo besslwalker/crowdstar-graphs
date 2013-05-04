@@ -20,6 +20,13 @@ digraph Fish {
     }
     Buzz -> Abe [color = blue];
     
+    subgraph clusterAussie {
+        label = Aussie;
+        Roger;
+    }
+    Roger -> Dean [lhead = clusterRebel];
+    Hoaxy -> Roger [ltail = clusterSalesman color = red style = dotted arrowhead = inv];
+    
     subgraph clusterBrave {
         label = Brave;
         Hercules [color = orange];
