@@ -61,10 +61,10 @@ digraph Mermaids {
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
         Taryn [color = mediumpurple];
-        Suzi [style = bold];
+        Suzi [style = bold color = goldenrod2];
     }
     Taryn -> Avery [color = mediumpurple];
-    Suzi -> Gemma [lhead = clusterSweetwater];
+    Suzi -> Gemma [color = goldenrod2];
     
     subgraph clusterCitrine {
         label = Citrine;
@@ -134,9 +134,9 @@ digraph Mermaids {
     
     subgraph clusterGlimmerRose {
         label = "Glimmer Rose"
-        Sterling;
+        Sterling [color = goldenrod2];
     }
-    Sterling -> Silvia [lhead = clusterSunkiss];
+    Sterling -> Silvia [color = goldenrod2];
     
     subgraph clusterHarlequin {
         label = Harlequin;
@@ -262,9 +262,9 @@ digraph Mermaids {
     
     subgraph clusterStellaStar {
         label = "Stella Star";
-        Aly;
+        Aly [color = goldenrod2];
     }
-    Aly -> Sterling [lhead = clusterGlimmerRose];
+    Aly -> Sterling [color = goldenrod2];
     
     subgraph clusterStinger {
         label = Stinger;
@@ -275,10 +275,10 @@ digraph Mermaids {
     subgraph clusterSunkiss {
         label = Sunkiss;
         Dawn [color = maroon3];
-        Silvia;
+        Silvia [color = goldenrod2];
     }
     Dawn -> Nadine [color = maroon3];
-    Silvia -> Sterling [lhead = clusterGlimmerRose];
+    Silvia -> Sterling [color = goldenrod2];
     
     subgraph clusterSunStar {
         label = "Sun Star";
@@ -288,9 +288,9 @@ digraph Mermaids {
     
     subgraph clusterSweetwater {
         label = Sweetwater;
-        Gemma;
+        Gemma [color = goldenrod2];
     }
-    Gemma -> Sterling [lhead = clusterGlimmerRose];
+    Gemma -> Sterling [color = goldenrod2];
     
     subgraph clusterTemptress {
         label = Temptress;
