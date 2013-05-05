@@ -81,10 +81,10 @@ digraph Mermaids {
     subgraph clusterCoral {
         label = Coral;
         Claudia [color = firebrick];
-        Caroline [style = bold color = steelblue2];
+        Caroline [style = bold];
     }
     Claudia -> Audrey [color = firebrick];
-    Caroline -> Heidi [color = steelblue2];
+    Caroline -> Hayley [lhead = clusterFuschia];
    
     subgraph clusterCrystalline {
         label = Crystalline;
