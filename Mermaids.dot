@@ -122,7 +122,7 @@ digraph Mermaids {
         Hayley [style = bold];
     }
     Heidi -> Lillian [color = steelblue2];
-    Hayley -> Celeste [lhead = clusterKelp];
+    Hayley -> Brynn [lhead = clusterKelp];
     
     subgraph clusterGingerBlossom {
         label = "Ginger Blossom";
@@ -165,10 +165,8 @@ digraph Mermaids {
     subgraph clusterKelp {
         label = Kelp;
         Brynn [color = chartreuse3];
-        Celeste [color = steelblue2];
     }
     Brynn -> Colette [color = chartreuse3];
-    Celeste -> Heidi [color = steelblue2];
     
     subgraph clusterKoi {
         label = Koi;
