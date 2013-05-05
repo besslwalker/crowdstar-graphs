@@ -108,7 +108,7 @@ digraph Mermaids {
         label = Ember;
         Sheena;
     }
-    Sheena -> TEMPTRESS [lhead = clusterTemptress];
+    Sheena -> Nora [lhead = clusterTemptress];
     
     subgraph clusterEmerald {
         label = Emerald;
@@ -291,6 +291,13 @@ digraph Mermaids {
         Gemma;
     }
     Gemma -> Sterling [lhead = clusterGlimmerRose];
+    
+    subgraph clusterTemptress {
+        label = Temptress;
+        Nora;
+    }
+    Nora -> DIAMANTE [lhead = clusterDiamante];
+    Iva -> Nora [ltail = clusterBlueNova color = red style = dotted arrowhead = inv];
     
     subgraph clusterTigerLily {
         label = "Tiger Lily";
