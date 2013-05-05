@@ -207,9 +207,9 @@ digraph Mermaids {
     
     subgraph clusterMint {
         label = Mint;
-        Mentha;
+        Mentha [color = steelblue2];
     }
-    Mentha -> Selena [lhead = clusterLotus];
+    Mentha -> Selena [color = steelblue2];
     
     subgraph clusterOnyx {
         label = Onyx;
