@@ -260,6 +260,12 @@ digraph Mermaids {
     }
     Misty -> Nadine [color = maroon3];
     
+    subgraph clusterSphyrna {
+        label = Sphyrna;
+        Kalea;
+    }
+    Kalea -> Makenna [lhead = clusterBlueBelle];
+    
     subgraph clusterStellaStar {
         label = "Stella Star";
         Aly [color = goldenrod2];
