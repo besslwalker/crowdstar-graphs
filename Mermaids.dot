@@ -155,8 +155,10 @@ digraph Mermaids {
     subgraph clusterInky {
         label = Inky;
         Eloise [color = orangered];
+        Lila [style = bold];
     }
     Eloise -> Alma [color = orangered];
+    Lila -> Alma [lhead = clusterLimelight];
     
     subgraph clusterIsis {
         label = Isis;
