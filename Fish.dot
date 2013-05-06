@@ -11,8 +11,7 @@ digraph Fish {
         label = Artist;
         Azure;
     }
-    Azure -> Stinkfin [lhead = clusterHobo];
-    Christina -> Azure [ltail = clusterPopStar color = red style = dotted arrowhead = inv];
+    Azure -> "Lucky Jim" [lhead = clusterHobo];
     
     subgraph clusterAstronaut {
         label = Astronaut;
@@ -127,9 +126,9 @@ digraph Fish {
     
     subgraph clusterHobo {
         label = Hobo;
-        Stinkfin;
+        "Lucky Jim";
     }
-    Stinkfin -> Christina [lhead = clusterPopStar];
+    "Lucky Jim" -> Rincewind [lhead = clusterWizard];
     
     subgraph clusterMadScientist {
         label = "Mad Scientist";
@@ -286,5 +285,5 @@ digraph Fish {
         label = Wizard;
         Rincewind;
     }
-    Rincewind -> Stinkfin [lhead = clusterHobo];
+    Rincewind -> "Lucky Jim" [lhead = clusterHobo];
 }
