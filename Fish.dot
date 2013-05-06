@@ -39,7 +39,7 @@ digraph Fish {
         label = Cheerleader;
         Betsi [color = violetred3];
     }
-    Betsi -> Goldie [color = violetred3];
+    Betsi -> Audrey [color = violetred3];
     
     subgraph clusterClown {
         label = Clown;
@@ -152,10 +152,12 @@ digraph Fish {
     subgraph clusterMovieStar {
         label = "Movie Star";
         Vivien [color = blue];
-        Goldie [color = violetred3];
+        Audrey [color = violetred3];
+        Goldie [style = bold];
     }
     Vivien -> Abe [color = blue];
-    Goldie -> Betsi [color = violetred3];
+    Audrey -> Betsi [color = violetred3];
+    Goldie -> George [lhead = clusterPresident];
     
     subgraph clusterNerdy {
         label = Nerdy;
