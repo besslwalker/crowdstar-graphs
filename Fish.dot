@@ -10,8 +10,11 @@ digraph Fish {
     subgraph clusterArtist {
         label = Artist;
         Azure;
+        Cobalt [style = bold];
     }
     Azure -> "Lucky Jim" [lhead = clusterHobo];
+    Cobalt -> Austin [lhead = clusterSecretAgent];
+    Persephone -> Cobalt [lhead = clusterModel color = red style = dotted arrowhead = inv];
     
     subgraph clusterAstronaut {
         label = Astronaut;
