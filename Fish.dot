@@ -233,8 +233,12 @@ digraph Fish {
     subgraph clusterRobber {
         label = Robber;
         Sneakygill [color = chocolate4];
+        Bandit;
+        Desperado;
     }
     Sneakygill -> Hoaxy [color = chocolate4];
+    Bandit -> Persephone [lhead = clusterModel];
+    Desperado -> Shred [lhead = clusterRockStar];
     
     subgraph clusterRockStar {
         label = "Rock Star";
