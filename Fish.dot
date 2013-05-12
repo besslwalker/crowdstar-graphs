@@ -190,9 +190,11 @@ digraph Fish {
     subgraph clusterParty {
         label = Party;
         Chloe;
+        Madison [style = bold];
     }
     Chloe -> Flora [lhead = clusterDancer];
     Chief -> Chloe [ltail = clusterCool color = red style = dotted arrow = inv];
+    Madison -> Bane [lhead = clusterEvil];
     
     subgraph clusterPirate {
         label = Pirate;
