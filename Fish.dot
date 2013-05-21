@@ -19,8 +19,10 @@ digraph Fish {
     subgraph clusterAstronaut {
         label = Astronaut;
         Buzz [color = blue];
+        Yuri [style = bold];
     }
     Buzz -> Abe [color = blue];
+    Yuri -> Christina [lhead = clusterPopStar];
     
     subgraph clusterAussie {
         label = Aussie;
