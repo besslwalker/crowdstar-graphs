@@ -19,6 +19,12 @@ digraph Mermaids {
     }
     Gabrielle -> Eloise [color = orangered];
     
+    subgraph clusterBahamaStar {
+        label = "Bahama Star";
+        Annabelle;
+    }
+    Annabelle -> Sterling [lhead = clusterGlimmerRose];
+    
     subgraph clusterBelladonna {
         label = Belladonna;
         Danielle [color = maroon3];
