@@ -195,7 +195,7 @@ digraph Fish {
         Madison [style = bold];
     }
     Chloe -> Flora [lhead = clusterDancer];
-    Chief -> Chloe [ltail = clusterCool color = red style = dotted arrow = inv];
+    Chief -> Chloe [ltail = clusterCool color = red style = dotted arrowhead = inv];
     Madison -> Bane [lhead = clusterEvil];
     
     subgraph clusterPirate {
