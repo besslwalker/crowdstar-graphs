@@ -316,6 +316,12 @@ digraph Mermaids {
     }
     Gemma -> Sterling [color = goldenrod2];
     
+    subgraph clusterTaurus {
+        label = Taurus;
+        Danika;
+    }
+    Danika -> Nina [lhead = clusterCoco];
+    
     subgraph clusterTemptress {
         label = Temptress;
         Nora;
