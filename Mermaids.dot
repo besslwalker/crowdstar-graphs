@@ -58,6 +58,12 @@ digraph Mermaids {
     Ada -> Inez [color = indigo];
     Tej -> Suzi [lhead = clusterCharmingViolet];
     
+    subgraph clusterCarcha {
+        label = Carcha;
+        Lani;
+    }
+    Lani -> Tamara [lhead = clusterCrystalline];
+    
     subgraph clusterCelestia {
         label = Celestia;
         Charlotte [style = bold];
