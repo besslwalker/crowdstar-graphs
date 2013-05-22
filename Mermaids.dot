@@ -219,6 +219,12 @@ digraph Mermaids {
     }
     Joan -> Carmel [color = indigo];
     
+    subgraph clusterMidas {
+        label = Midas;
+        Valeria;
+    }
+    Valeria -> Iva [lhead = clusterBlueNova];
+    
     subgraph clusterMint {
         label = Mint;
         Mentha [color = steelblue2];
