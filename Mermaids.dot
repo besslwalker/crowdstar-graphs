@@ -67,10 +67,8 @@ digraph Mermaids {
     subgraph clusterCelestia {
         label = Celestia;
         Charlotte [style = bold];
-        June;
     }
     Charlotte -> Tej [lhead = clusterCarbonNight];
-    June -> Sterling [lhead = clusterGlimmerRose];
     
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
