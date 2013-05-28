@@ -229,6 +229,12 @@ digraph Mermaids {
     }
     Mentha -> Selena [color = steelblue2];
     
+    subgraph clusterOmnom {
+        label = Omnom;
+        Sammy;
+    }
+    Sammy -> Tegan [lhead = clusterHarlequin];
+    
     subgraph clusterOnyx {
         label = Onyx;
         Heather [color = chartreuse3];
