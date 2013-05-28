@@ -28,8 +28,12 @@ digraph Mermaids {
     subgraph clusterBelladonna {
         label = Belladonna;
         Danielle [color = maroon3];
+        Nadia;
+        Joy;
     }
     Danielle -> Nima [color = maroon3];
+    Nadia -> Silvia [lhead = clusterSunkiss];
+    Joy -> Taryn [lhead = clusterCharmingViolet];
     
     subgraph clusterBlueBelle {
         label = "Blue Belle";
@@ -47,8 +51,10 @@ digraph Mermaids {
     subgraph clusterCalypso {
         label = Calypso;
         Nadine [color = maroon3];
+        Tara;
     }
     Nadine -> Misty [color = maroon3];
+    Tara -> Tegan [lhead = clusterHarlequin];
     
     subgraph clusterCarbonNight {
         label = "Carbon Night";
@@ -157,8 +163,10 @@ digraph Mermaids {
     subgraph clusterHoneyDew {
         label = "Honey Dew";
         Paula;
+        Maya;
     }
     Paula -> Demi [lhead = clusterSeafoam];
+    Maya -> Pippa [lhead = clusterVapor];
     
     subgraph clusterInky {
         label = Inky;
@@ -177,8 +185,10 @@ digraph Mermaids {
     subgraph clusterKelp {
         label = Kelp;
         Brynn [color = chartreuse3];
+        Aurora;
     }
     Brynn -> Colette [color = chartreuse3];
+    Aurora -> Audrey [lhead = clusterCitrine];
     
     subgraph clusterKoi {
         label = Koi;
@@ -189,8 +199,10 @@ digraph Mermaids {
     subgraph clusterLimelight {
         label = Limelight;
         Alma [color = orangered];
+        Kyla;
     }
     Alma -> Martine [color = orangered];
+    Kyla -> Inez [lhead = clusterIsis];
     
     subgraph clusterLotus {
         label = Lotus;
@@ -201,8 +213,10 @@ digraph Mermaids {
     subgraph clusterLuau {
         label = Luau;
         Lexi [color = chartreuse3];
+        Yasmin;
     }
     Lexi -> Colette [color = chartreuse3];
+    Yasmin -> Paula [lhead = clusterHoneyDew];
     
     subgraph clusterLum {
         label = Lum;
@@ -238,8 +252,10 @@ digraph Mermaids {
     subgraph clusterOnyx {
         label = Onyx;
         Heather [color = chartreuse3];
+        Emanuela;
     }
     Heather -> Molly [color = chartreuse3];
+    Emanuela -> Lexi [lhead = clusterLuau];
     
     subgraph clusterOpal {
         label = Opal;
