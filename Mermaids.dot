@@ -49,10 +49,8 @@ digraph Mermaids {
     subgraph clusterCalypso {
         label = Calypso;
         Nadine [color = maroon3];
-        Veronica;
     }
     Nadine -> Misty [color = maroon3];
-    Veronica -> Sterling [lhead = clusterGlimmerRose];
     
     subgraph clusterCarbonNight {
         label = "Carbon Night";
@@ -160,10 +158,8 @@ digraph Mermaids {
     
     subgraph clusterHoneyDew {
         label = "Honey Dew";
-        Paula;
         Maya;
     }
-    Paula -> Demi [lhead = clusterSeafoam];
     Maya -> Pippa [lhead = clusterVapor];
     
     subgraph clusterInky {
@@ -209,17 +205,14 @@ digraph Mermaids {
     subgraph clusterLuau {
         label = Luau;
         Lexi [color = chartreuse3];
-        Yasmin;
     }
     Lexi -> Colette [color = chartreuse3];
-    Yasmin -> Paula [lhead = clusterHoneyDew];
     
     subgraph clusterLum {
         label = Lum;
         Mary;
     }
     Mary -> Demi [lhead = clusterSeafoam];
-    Paula -> Mary [ltail = clusterHoneyDew color = red style = dotted arrowhead = inv];
     
     subgraph clusterMarigold {
         label = Marigold;
@@ -309,10 +302,8 @@ digraph Mermaids {
     subgraph clusterStinger {
         label = Stinger;
         Carmel [color = indigo];
-        Meadow;
     }
     Carmel -> Ada [color = indigo];
-    Meadow -> Misty [lhead = clusterSparklePinkle];
     
     subgraph clusterStoma {
         label = Stoma;
