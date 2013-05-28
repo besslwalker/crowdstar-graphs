@@ -251,17 +251,17 @@ digraph Mermaids {
     
     subgraph clusterOnyx {
         label = Onyx;
-        Heather [color = chartreuse3];
-        Emanuela;
+        Emanuela [color = chartreuse3];
+        Heather;
     }
-    Heather -> Molly [color = chartreuse3];
-    Emanuela -> Lexi [lhead = clusterLuau];
+    Emanuela -> Lexi [color = chartreuse3];
+    Heather -> Molly [lhead = clusterTigerLily];
     
     subgraph clusterOpal {
         label = Opal;
         Colette [color = chartreuse3];
     }
-    Colette -> Heather [color = chartreuse3];
+    Colette -> Emanuela [color = chartreuse3];
     
     subgraph clusterPisces {
         label = Pisces;
