@@ -302,6 +302,12 @@ digraph Mermaids {
     }
     Carmel -> Ada [color = indigo];
     
+    subgraph clusterStoma {
+        label = Stoma;
+        Haukea;
+    }
+    Haukea -> Tegan [lhead = clusterHarlequin];
+    
     subgraph clusterSugarStar {
         label = "Sugar Star";
         Jo;
