@@ -183,10 +183,10 @@ digraph Mermaids {
     subgraph clusterKelp {
         label = Kelp;
         Brynn [color = chartreuse3];
-        Aurora;
+        Aurora [color = firebrick];
     }
     Brynn -> Colette [color = chartreuse3];
-    Aurora -> Audrey [lhead = clusterCitrine];
+    Aurora -> Audrey [color = firebrick];
     
     subgraph clusterKoi {
         label = Koi;
@@ -210,11 +210,9 @@ digraph Mermaids {
         label = Luau;
         Lexi [color = chartreuse3];
         Yasmin;
-        Zoe;
     }
     Lexi -> Colette [color = chartreuse3];
     Yasmin -> Paula [lhead = clusterHoneyDew];
-    Zoe -> Emanuela [lhead = clusterOnyx];
     
     subgraph clusterLum {
         label = Lum;
