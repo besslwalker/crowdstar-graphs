@@ -74,11 +74,11 @@ digraph Mermaids {
     
     subgraph clusterCelestia {
         label = Celestia;
+        Yvonne;
         Charlotte [style = bold color = firebrick];
-        Vivian;
     }
+    Yvonne -> Carmel [lhead = clusterCrystalline];
     Charlotte -> Tej [color = firebrick];
-    Vivian -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
