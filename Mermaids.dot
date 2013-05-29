@@ -61,10 +61,10 @@ digraph Mermaids {
     subgraph clusterCarbonNight {
         label = "Carbon Night";
         Ada [color = indigo];
-        Tej [style = bold];
+        Tej [style = bold color = mediumpurple];
     }
     Ada -> Inez [color = indigo];
-    Tej -> Suzi [lhead = clusterCharmingViolet];
+    Tej -> Avery [color = mediumpurple];
     
     subgraph clusterCarcha {
         label = Carcha;
@@ -74,10 +74,10 @@ digraph Mermaids {
     
     subgraph clusterCelestia {
         label = Celestia;
-        Charlotte [style = bold];
+        Charlotte [style = bold color = mediumpurple];
         Vivian;
     }
-    Charlotte -> Tej [lhead = clusterCarbonNight];
+    Charlotte -> Tej [color = mediumpurple];
     Vivian -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterCharmingViolet {
