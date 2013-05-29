@@ -72,7 +72,7 @@ digraph Mermaids {
         Vivian;
     }
     Charlotte -> Tej [lhead = clusterCarbonNight];
-    Vivian;
+    Vivian -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
