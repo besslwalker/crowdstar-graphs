@@ -34,10 +34,10 @@ digraph Mermaids {
     subgraph clusterBelladonna {
         label = Belladonna;
         Danielle [color = maroon3];
-        Joy [color = mediumpurple];
+        Joy [color = firebrick];
     }
     Danielle -> Nima [color = maroon3];
-    Joy -> Taryn [color = mediumpurple];
+    Joy -> Taryn [color = firebrick];
     
     subgraph clusterBlueBelle {
         label = "Blue Belle";
@@ -61,10 +61,10 @@ digraph Mermaids {
     subgraph clusterCarbonNight {
         label = "Carbon Night";
         Ada [color = indigo];
-        Tej [style = bold color = mediumpurple];
+        Tej [style = bold color = firebrick];
     }
     Ada -> Inez [color = indigo];
-    Tej -> Avery [color = mediumpurple];
+    Tej -> Avery [color = firebrick];
     
     subgraph clusterCarcha {
         label = Carcha;
@@ -74,18 +74,18 @@ digraph Mermaids {
     
     subgraph clusterCelestia {
         label = Celestia;
-        Charlotte [style = bold color = mediumpurple];
+        Charlotte [style = bold color = firebrick];
         Vivian;
     }
-    Charlotte -> Tej [color = mediumpurple];
+    Charlotte -> Tej [color = firebrick];
     Vivian -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
-        Taryn [color = mediumpurple];
+        Taryn [color = firebrick];
         Suzi [style = bold color = goldenrod2];
     }
-    Taryn -> Avery [color = mediumpurple];
+    Taryn -> Avery [color = firebrick];
     Suzi -> Gemma [color = goldenrod2];
     
     subgraph clusterCitrine {
@@ -210,9 +210,9 @@ digraph Mermaids {
     
     subgraph clusterLuau {
         label = Luau;
-        Lexi [color = firebrick];
+        Lexi [color = mediumpurple];
     }
-    Lexi -> Colette [color = firebrick];
+    Lexi -> Colette [color = mediumpurple];
     
     subgraph clusterLum {
         label = Lum;
@@ -246,15 +246,15 @@ digraph Mermaids {
     
     subgraph clusterOnyx {
         label = Onyx;
-        Emanuela [color = firebrick];
+        Emanuela [color = mediumpurple];
     }
-    Emanuela -> Lexi [color = firebrick];
+    Emanuela -> Lexi [color = mediumpurple];
     
     subgraph clusterOpal {
         label = Opal;
-        Colette [color = firebrick];
+        Colette [color = mediumpurple];
     }
-    Colette -> Emanuela [color = firebrick];
+    Colette -> Emanuela [color = mediumpurple];
     
     subgraph clusterPisces {
         label = Pisces;
@@ -385,7 +385,7 @@ digraph Mermaids {
     
     subgraph clusterVelvetTwist {
         label = "Velvet Twist";
-        Avery [color = mediumpurple];
+        Avery [color = firebrick];
     }
-    Avery -> Taryn [color = mediumpurple];
+    Avery -> Taryn [color = firebrick];
 }
