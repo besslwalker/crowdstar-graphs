@@ -1,6 +1,12 @@
 digraph Mermaids {
     graph [compound = true];
     
+    subgraph clusterAmakua {
+        label = Amakua;
+        Wikolia;
+    }
+    Wikolia -> Fern [lhead = clusterSeaDragon];
+    
     subgraph clusterAmore {
         label = Amore;
         Rosalie [color = maroon3];
