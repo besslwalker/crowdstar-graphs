@@ -205,8 +205,10 @@ digraph Mermaids {
     subgraph clusterLotus {
         label = Lotus;
         Selena [color = steelblue2];
+        Lola;
     }
     Selena -> Makenna [color = steelblue2];
+    Lola -> Avery [lhead = clusterVelvetTwist];
     
     subgraph clusterLuau {
         label = Luau;
