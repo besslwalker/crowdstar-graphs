@@ -157,8 +157,10 @@ digraph Mermaids {
     subgraph clusterGingerBlossom {
         label = "Ginger Blossom";
         Nima [color = maroon3];
+        Lynn;
     }
     Nima -> Nadine [color = maroon3];
+    Lynn -> Lila [lhead = clusterInky];
     
     subgraph clusterGlimmerRose {
         label = "Glimmer Rose"
