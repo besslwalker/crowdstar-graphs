@@ -35,9 +35,11 @@ digraph Fish {
         label = Brave;
         Hercules [color = orange];
         Lancelot [style = bold color = cyan3];
+        Leo;
     }
     Hercules -> Loonygill [color = orange];
     Lancelot -> Darwin [color = cyan3];
+    Leo -> Squishy [lhead = clusterShy];
     
     subgraph clusterCheerleader {
         label = Cheerleader;
