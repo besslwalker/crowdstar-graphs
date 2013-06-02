@@ -263,8 +263,10 @@ digraph Mermaids {
     subgraph clusterOpal {
         label = Opal;
         Colette [color = mediumpurple];
+        Cora [color = mediumpurple];
     }
     Colette -> Emanuela [color = mediumpurple];
+    Cora -> Jillian [color = mediumpurple];
     
     subgraph clusterPisces {
         label = Pisces;
