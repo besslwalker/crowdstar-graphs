@@ -338,8 +338,10 @@ digraph Mermaids {
     subgraph clusterSunkiss {
         label = Sunkiss;
         Silvia [color = goldenrod2];
+        Jada [style = bold];
     }
     Silvia -> Sterling [color = goldenrod2];
+    Jada -> Nadine [lhead = clusterCalypso];
     
     subgraph clusterSunStar {
         label = "Sun Star";
