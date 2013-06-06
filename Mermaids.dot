@@ -62,9 +62,11 @@ digraph Mermaids {
         label = "Carbon Night";
         Ada [color = indigo];
         Tej [style = bold color = firebrick];
+        Callie;
     }
     Ada -> Inez [color = indigo];
     Tej -> Avery [color = firebrick];
+    Callie -> Joan [lhead = clusterMarigold];
     
     subgraph clusterCarcha {
         label = Carcha;
@@ -155,8 +157,12 @@ digraph Mermaids {
     subgraph clusterGingerBlossom {
         label = "Ginger Blossom";
         Nima [color = maroon3];
+        Maxine;
+        Lynn;
     }
     Nima -> Nadine [color = maroon3];
+    Maxine -> Sydney [lhead = clusterTwinkletail];
+    Lynn -> Inez [lhead = clusterIsis];
     
     subgraph clusterGlimmerRose {
         label = "Glimmer Rose"
@@ -199,8 +205,10 @@ digraph Mermaids {
     subgraph clusterKoi {
         label = Koi;
         Martine [color = orangered];
+        Estella;
     }
     Martine -> Alma [color = orangered];
+    Estella -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterLimelight {
         label = Limelight;
@@ -281,9 +289,11 @@ digraph Mermaids {
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
         Fern;
+        Larel;
     }
     Fern -> Martine [lhead = clusterKoi];
     Alma -> Fern [ltail = clusterLimelight color = red style = dotted arrowhead = inv];
+    Larel -> Alma [lhead = clusterLimelight];
     
     subgraph clusterSeafoam {
         label = Seafoam;
@@ -388,8 +398,12 @@ digraph Mermaids {
     subgraph clusterTwinkletail {
         label = Twinkletail;
         Sydney [color = dodgerblue3];
+        Tia;
+        Samara;
     }
     Sydney -> Leticia [color = dodgerblue3];
+    Tia -> Uma [lhead = clusterEmerald];
+    Samara -> Maxine [lhead = clusterGingerBlossom];
     
     subgraph clusterVapor {
         label = Vapor;
@@ -400,6 +414,8 @@ digraph Mermaids {
     subgraph clusterVelvetTwist {
         label = "Velvet Twist";
         Avery [color = firebrick];
+        Brooklyn;
     }
     Avery -> Taryn [color = firebrick];
+    Brooklyn -> Joy [lhead = clusterBelladonna];
 }
