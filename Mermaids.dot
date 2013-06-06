@@ -5,7 +5,7 @@ digraph Mermaids {
         label = Amakua;
         Wikolia;
     }
-    Wikolia -> Fern [lhead = clusterSeaDragon];
+    Wikolia -> Larel [lhead = clusterSeaDragon];
     
     subgraph clusterAmore {
         label = Amore;
@@ -118,7 +118,7 @@ digraph Mermaids {
         label = Domino;
         Rena;
     }
-    Rena -> Fern [lhead = clusterSeaDragon];
+    Rena -> Larel [lhead = clusterSeaDragon];
     
     subgraph clusterElectra {
         label = Electra;
@@ -201,10 +201,8 @@ digraph Mermaids {
     subgraph clusterKoi {
         label = Koi;
         Martine [color = orangered];
-        Estella;
     }
     Martine -> Alma [color = orangered];
-    Estella -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterLimelight {
         label = Limelight;
@@ -284,10 +282,8 @@ digraph Mermaids {
     
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
-        Fern;
         Larel;
     }
-    Fern -> Estella [lhead = clusterKoi];
     Larel -> Alma [lhead = clusterLimelight];
     
     subgraph clusterSeafoam {
