@@ -287,8 +287,7 @@ digraph Mermaids {
         Fern;
         Larel;
     }
-    Fern -> Martine [lhead = clusterKoi];
-    Alma -> Fern [ltail = clusterLimelight color = red style = dotted arrowhead = inv];
+    Fern -> Estella [lhead = clusterKoi];
     Larel -> Alma [lhead = clusterLimelight];
     
     subgraph clusterSeafoam {
