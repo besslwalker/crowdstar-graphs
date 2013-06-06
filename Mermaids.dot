@@ -300,10 +300,8 @@ digraph Mermaids {
     subgraph clusterSilverSong {
         label = "Silver Song";
         Beatrice;
-        Ana;
     }
     Beatrice -> Leticia [lhead = clusterTropicana];
-    Ana -> Uma [lhead = clusterEmerald];
     
     subgraph clusterSparklePinkle {
         label = "Sparkle Pinkle";
