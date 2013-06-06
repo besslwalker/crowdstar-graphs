@@ -60,11 +60,9 @@ digraph Mermaids {
     
     subgraph clusterCarbonNight {
         label = "Carbon Night";
-        Ada;
         Tej [style = bold color = firebrick];
         Callie [color = indigo];
     }
-    Ada -> Inez [lhead = clusterIsis];
     Tej -> Avery [color = firebrick];
     Callie -> Joan [color = indigo];
     
