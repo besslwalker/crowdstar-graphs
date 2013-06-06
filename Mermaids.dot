@@ -394,11 +394,9 @@ digraph Mermaids {
     subgraph clusterTwinkletail {
         label = Twinkletail;
         Sydney [color = dodgerblue3];
-        Tia;
         Samara [color = forestgreen];
     }
     Sydney -> Leticia [color = dodgerblue3];
-    Tia -> Uma [lhead = clusterEmerald];
     Samara -> Maxine [color = forestgreen];
     
     subgraph clusterVapor {
