@@ -23,7 +23,7 @@ digraph Mermaids {
         label = Aries;
         Gabrielle;
     }
-    Gabrielle -> Eloise [lhead = clusterInky];
+    Gabrielle -> Lila [lhead = clusterInky];
     
     subgraph clusterBahamaStar {
         label = "Bahama Star";
@@ -182,11 +182,11 @@ digraph Mermaids {
     
     subgraph clusterInky {
         label = Inky;
-        Eloise;
-        Lila [style = bold color = orangered];
+        Eloise [color = orangered];
+        Lila [style = bold];
     }
-    Eloise -> Alma [lhead = clusterLimelight];
-    Lila -> Alma [color = orangered];
+    Eloise -> Alma [color = orangered];
+    Lila -> Alma [head = clusterLimelight];
     
     subgraph clusterIsis {
         label = Isis;
