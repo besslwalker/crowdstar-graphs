@@ -60,13 +60,13 @@ digraph Mermaids {
     
     subgraph clusterCarbonNight {
         label = "Carbon Night";
-        Ada [color = indigo];
+        Ada;
         Tej [style = bold color = firebrick];
-        Callie;
+        Callie [color = indigo];
     }
-    Ada -> Inez [color = indigo];
+    Ada -> Inez [lhead = clusterIsis];
     Tej -> Avery [color = firebrick];
-    Callie -> Joan [lhead = clusterMarigold];
+    Callie -> Joan [color = indigo];
     
     subgraph clusterCarcha {
         label = Carcha;
@@ -112,9 +112,9 @@ digraph Mermaids {
    
     subgraph clusterCrystalline {
         label = Crystalline;
-        Tamara [color = indigo];
+        Tamara;
     }
-    Tamara -> Joan [color = indigo];
+    Tamara -> Joan [lhead = clusterMarigold];
     
     subgraph clusterDomino {
         label = Domino;
@@ -192,9 +192,9 @@ digraph Mermaids {
     
     subgraph clusterIsis {
         label = Isis;
-        Inez [color = indigo];
+        Inez;
     }
-    Inez -> Tamara [color = indigo];
+    Inez -> Tamara [lhead = clusterCrystalline];
     
     subgraph clusterKelp {
         label = Kelp;
@@ -331,7 +331,7 @@ digraph Mermaids {
         label = Stinger;
         Carmel [color = indigo];
     }
-    Carmel -> Ada [color = indigo];
+    Carmel -> Callie [color = indigo];
     
     subgraph clusterStoma {
         label = Stoma;
