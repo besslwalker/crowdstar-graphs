@@ -278,9 +278,9 @@ digraph Mermaids {
     
     subgraph clusterRoseGold {
         label = "Rose Gold";
-        Sherry;
+        Sherry [color = forestgreen];
     }
-    Sherry -> Sydney [lhead = clusterTwinkletail];
+    Sherry -> Samara [color = forestgreen];
     
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
