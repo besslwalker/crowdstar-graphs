@@ -157,10 +157,10 @@ digraph Mermaids {
     subgraph clusterGingerBlossom {
         label = "Ginger Blossom";
         Nima [color = maroon3];
-        Maxine [color = forestgreen];
+        Maxine [color = darkgreen];
     }
     Nima -> Nadine [color = maroon3];
-    Maxine -> Samara [color = forestgreen];
+    Maxine -> Samara [color = darkgreen];
     
     subgraph clusterGlimmerRose {
         label = "Glimmer Rose"
@@ -170,9 +170,9 @@ digraph Mermaids {
     
     subgraph clusterHarlequin {
         label = Harlequin;
-        Tegan [color = forestgreen];
+        Tegan [color = darkgreen];
     }
-    Tegan -> Samara [color = forestgreen];
+    Tegan -> Samara [color = darkgreen];
     
     subgraph clusterHoneyDew {
         label = "Honey Dew";
@@ -250,9 +250,9 @@ digraph Mermaids {
     
     subgraph clusterOmnom {
         label = Omnom;
-        Sammy [color = forestgreen];
+        Sammy [color = darkgreen];
     }
-    Sammy -> Tegan [color = forestgreen];
+    Sammy -> Tegan [color = darkgreen];
     
     subgraph clusterOnyx {
         label = Onyx;
@@ -387,16 +387,16 @@ digraph Mermaids {
     subgraph clusterTwinkletail {
         label = Twinkletail;
         Sydney [color = dodgerblue3];
-        Samara [color = forestgreen];
+        Samara [color = darkgreen];
     }
     Sydney -> Leticia [color = dodgerblue3];
-    Samara -> Maxine [color = forestgreen];
+    Samara -> Maxine [color = darkgreen];
     
     subgraph clusterVapor {
         label = Vapor;
-        Pippa [color = forestgreen];
+        Pippa [color = darkgreen];
     }
-    Pippa -> Tegan [color = forestgreen];
+    Pippa -> Tegan [color = darkgreen];
     Maya -> Pippa [ltail = clusterHoneyDew color = red style = dotted arrowhead = inv];
     
     subgraph clusterVelvetTwist {
