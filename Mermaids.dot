@@ -168,15 +168,15 @@ digraph Mermaids {
     
     subgraph clusterHarlequin {
         label = Harlequin;
-        Tegan [color = dodgerblue3];
+        Tegan [color = forestgreen];
     }
-    Tegan -> Sydney [color = dodgerblue3];
+    Tegan -> Samara [color = forestgreen];
     
     subgraph clusterHoneyDew {
         label = "Honey Dew";
-        Maya;
+        Maya [color = forestgreen];
     }
-    Maya -> Pippa [lhead = clusterVapor];
+    Maya -> Pippa [color = forestgreen];
     
     subgraph clusterInky {
         label = Inky;
@@ -399,9 +399,9 @@ digraph Mermaids {
     
     subgraph clusterVapor {
         label = Vapor;
-        Pippa [color = dodgerblue3];
+        Pippa [color = forestgreen];
     }
-    Pippa -> Tegan [color = dodgerblue3];
+    Pippa -> Tegan [color = forestgreen];
     
     subgraph clusterVelvetTwist {
         label = "Velvet Twist";
