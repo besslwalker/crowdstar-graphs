@@ -161,7 +161,7 @@ digraph Mermaids {
         Lynn;
     }
     Nima -> Nadine [color = maroon3];
-    Maxine -> Sydney [lhead = clusterTwinkletail];
+    Maxine -> Samara [lhead = clusterTwinkletail];
     Lynn -> Inez [lhead = clusterIsis];
     
     subgraph clusterGlimmerRose {
