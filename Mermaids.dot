@@ -250,9 +250,9 @@ digraph Mermaids {
     
     subgraph clusterOmnom {
         label = Omnom;
-        Sammy;
+        Sammy [color = forestgreen];
     }
-    Sammy -> Tegan [lhead = clusterHarlequin];
+    Sammy -> Tegan [color = forestgreen];
     
     subgraph clusterOnyx {
         label = Onyx;
