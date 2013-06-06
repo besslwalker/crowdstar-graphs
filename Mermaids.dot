@@ -77,7 +77,7 @@ digraph Mermaids {
         Yvonne;
         Charlotte [style = bold color = firebrick];
     }
-    Yvonne -> Carmel [lhead = clusterCrystalline];
+    Yvonne -> Carmel [lhead = clusterStinger];
     Charlotte -> Tej [color = firebrick];
     
     subgraph clusterCharmingViolet {
