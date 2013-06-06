@@ -65,7 +65,7 @@ digraph Mermaids {
     }
     Tej -> Avery [color = firebrick];
     Callie -> Joan [color = indigo];
-    Inez -> Callie [lhead = clusterIsis color = red style = dotted arrowhead = inv];
+    Inez -> Callie [ltail = clusterIsis color = red style = dotted arrowhead = inv];
     
     subgraph clusterCarcha {
         label = Carcha;
