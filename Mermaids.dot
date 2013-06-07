@@ -319,10 +319,8 @@ digraph Mermaids {
     subgraph clusterStinger {
         label = Stinger;
         Carmel [color = indigo];
-        June;
     }
     Carmel -> Callie [color = indigo];
-    June -> Silvia [lhead = clusterSunkiss];
     
     subgraph clusterStoma {
         label = Stoma;
