@@ -27,9 +27,9 @@ digraph Mermaids {
     
     subgraph clusterBahamaStar {
         label = "Bahama Star";
-        Annabelle;
+        Annabelle [color = goldenrod2];
     }
-    Annabelle -> Sterling [lhead = clusterGlimmerRose];
+    Annabelle -> Sterling [color = goldenrod2];
     
     subgraph clusterBelladonna {
         label = Belladonna;
@@ -328,9 +328,9 @@ digraph Mermaids {
     
     subgraph clusterSugarStar {
         label = "Sugar Star";
-        Jo;
+        Jo [color = goldenrod2];
     }
-    Jo -> Sterling [lhead = clusterGlimmerRose];
+    Jo -> Sterling [color = goldenrod2];
     
     subgraph clusterSunkiss {
         label = Sunkiss;
