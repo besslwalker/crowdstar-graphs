@@ -85,10 +85,10 @@ digraph Mermaids {
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
         Taryn [color = firebrick];
-        Suzi [style = bold color = goldenrod2];
+        Suzi [style = bold];
     }
     Taryn -> Avery [color = firebrick];
-    Suzi -> Gemma [color = goldenrod2];
+    Suzi -> Gemma [lhead = clusterSweetwater];
     
     subgraph clusterCitrine {
         label = Citrine;
@@ -348,10 +348,10 @@ digraph Mermaids {
     
     subgraph clusterSweetwater {
         label = Sweetwater;
-        Gemma [color = goldenrod2];
+        Gemma;
         Francine [color = mediumpurple];
     }
-    Gemma -> Sterling [color = goldenrod2];
+    Gemma -> Sterling [lhead = clusterGlimmerRose];
     Francine -> Jillian [color = mediumpurple];
     
     subgraph clusterTaurus {
