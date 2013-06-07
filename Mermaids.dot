@@ -278,6 +278,12 @@ digraph Mermaids {
     }
     Sherry -> Samara [lhead = clusterTwinkletail];
     
+    subgraph clusterSakura {
+        label = Sakura;
+        Aoi;
+    }
+    Aoi -> Maya [lhead = clusterHoneyDew];
+    
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
         Larel [color = orangered];
