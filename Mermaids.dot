@@ -121,10 +121,8 @@ digraph Mermaids {
     subgraph clusterDomino {
         label = Domino;
         Rena [color = orangered];
-        Lottie;
     }
     Rena -> Larel [color = orangered];
-    Lottie -> Larel [lhead = clusterSeaDragon];
     
     subgraph clusterElectra {
         label = Electra;
@@ -287,11 +285,8 @@ digraph Mermaids {
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
         Larel [color = orangered];
-        Cara;
     }
     Larel -> Alma [color = orangered];
-    Cara -> Alma [lhead = clusterLimelight];
-    Rena -> Cara [ltail = clusterDomino color = red style = dotted arrowhead = inv];
     
     subgraph clusterSeafoam {
         label = Seafoam;
