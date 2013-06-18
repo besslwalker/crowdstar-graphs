@@ -151,8 +151,10 @@ digraph Mermaids {
     subgraph clusterGemini {
         label = Gemini;
         Anora;
+        Kaylie;
     }
     Anora -> Inez [lhead = clusterIsis];
+    Kaylie -> Misty [lhead = clusterSparklePinkle];
     
     subgraph clusterGingerBlossom {
         label = "Ginger Blossom";
