@@ -244,9 +244,11 @@ digraph Mermaids {
         label = Luau;
         Lexi [color = mediumpurple];
         Zoe;
+        Yasmin;
     }
     Lexi -> Colette [color = mediumpurple];
     Zoe -> Joy [lhead = clusterBelladonna];
+    Yasmin -> Jillian [lhead = clusterBlueBelle];
     
     subgraph clusterLum {
         label = Lum;
