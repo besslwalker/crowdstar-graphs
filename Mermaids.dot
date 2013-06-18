@@ -95,13 +95,13 @@ digraph Mermaids {
         Taryn [color = firebrick];
         Suzi [style = bold];
         Taryn2;
-        Taryn3;
+        Zhenya;
         Tatum;
     }
     Taryn -> Avery [color = firebrick];
     Suzi -> Francine [lhead = clusterSweetwater];
     Taryn2 -> Sterling [lhead = clusterGlimmerRose];
-    Taryn3 -> Lexi [lhead = clusterLuau];
+    Zhenya -> Lexi [lhead = clusterLuau];
     Tatum -> Joy [lhead = clusterBelladonna];
     
     subgraph clusterCitrine {
