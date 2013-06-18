@@ -417,8 +417,10 @@ digraph Mermaids {
     subgraph clusterTigra {
         label = Tigra;
         Melinda;
+        Oceana;
     }
     Melinda -> Nina [lhead = clusterCoco];
+    Oceana -> Inez [lhead = clusterIsis];
     
     subgraph clusterTropicana {
         label = Tropicana;
