@@ -332,9 +332,11 @@ digraph Mermaids {
         label = "Sparkle Pinkle";
         Misty [style = bold color = maroon3];
         Perla [style = bold];
+        Rene;
     }
     Misty -> Nadine [color = maroon3];
     Perla -> Francine [lhead = clusterSweetwater];
+    Rene -> Melinda [lhead = clusterTigra];
     
     subgraph clusterSphyrna {
         label = Sphyrna;
