@@ -313,8 +313,10 @@ digraph Mermaids {
     subgraph clusterSeaDragon {
         label = "Sea Dragon"
         Larel [color = orangered];
+        Fern [style = bold];
     }
     Larel -> Alma [color = orangered];
+    Fern -> Eloise [lhead = clusterInky];
     
     subgraph clusterSeafoam {
         label = Seafoam;
