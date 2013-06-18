@@ -156,7 +156,7 @@ digraph Mermaids {
         Vivian;
     }
     Uma -> Leticia [color = dodgerblue3];
-    Vivian -> Emerald [lhead = clusterStinger];
+    Vivian -> Carmel [lhead = clusterStinger];
     
     subgraph clusterFuschia {
         label = Fuschia;
