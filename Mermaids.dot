@@ -16,8 +16,10 @@ digraph Mermaids {
     subgraph clusterAqua {
         label = Aqua;
         Liana [style = bold color = chartreuse3];
+        Taleen;
     }
     Liana -> Claudia [color = chartreuse3];
+    Taleen -> Caroline [lhead = clusterCoral];
     
     subgraph clusterAries {
         label = Aries;
