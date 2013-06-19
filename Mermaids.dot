@@ -43,11 +43,9 @@ digraph Mermaids {
         label = "Blue Belle";
         Makenna [color = steelblue2];
         Jillian [color = mediumpurple];
-        Layla;
     }
     Makenna -> Lillian [color = steelblue2];
     Jillian -> Yasmin [color = mediumpurple];
-    Layla -> Joy [lhead = clusterBelladonna];
     
     subgraph clusterBlueNova {
         label = "Blue Nova";
