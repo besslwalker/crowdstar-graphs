@@ -46,7 +46,7 @@ digraph Mermaids {
         Layla;
     }
     Makenna -> Lillian [color = steelblue2];
-    Jillian -> Lexi [color = mediumpurple];
+    Jillian -> Yasmin [color = mediumpurple];
     Layla -> Joy [lhead = clusterBelladonna];
     
     subgraph clusterBlueNova {
