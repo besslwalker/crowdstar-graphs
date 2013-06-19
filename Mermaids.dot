@@ -37,7 +37,7 @@ digraph Mermaids {
         label = Belladonna;
         Joy [color = firebrick];
     }
-    Joy -> Taryn [color = firebrick];
+    Joy -> Tatum [color = firebrick];
     
     subgraph clusterBlueBelle {
         label = "Blue Belle";
