@@ -316,10 +316,8 @@ digraph Mermaids {
     subgraph clusterSeafoam {
         label = Seafoam;
         Demi [color = indigo];
-        Carmen;
     }
     Demi -> Joan [color = indigo];
-    Carmen -> Leticia [lhead = clusterTropicana];
     
     subgraph clusterSilverSong {
         label = "Silver Song";
