@@ -51,10 +51,10 @@ digraph Mermaids {
     
     subgraph clusterBlueNova {
         label = "Blue Nova";
-        Iva;
+        Iva [color = olivedrab];
         Daphne;
     }
-    Iva -> Sheena [lhead = clusterEmber];
+    Iva -> Sheena2 [color = olivedrab];
     Bianca -> Iva [ltail = clusterElectra color = red style = dotted arrowhead = inv];
     Daphne -> Rena [lhead = clusterDomino];
     Valeria -> Daphne [ltail = clusterMidas color = red style = dotted arrowhead = inv];
@@ -146,10 +146,10 @@ digraph Mermaids {
     subgraph clusterEmber {
         label = Ember;
         Sheena;
-        Sheena2;
+        Sheena2 [color = olivedrab];
     }
     Sheena -> Minerva [lhead = clusterTemptress];
-    Sheena2 -> Iva [lhead = clusterBlueNova];
+    Sheena2 -> Iva [color = olivedrab];
     
     subgraph clusterEmerald {
         label = Emerald;
