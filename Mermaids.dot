@@ -60,8 +60,10 @@ digraph Mermaids {
     subgraph clusterCalypso {
         label = Calypso;
         Nadine [color = maroon3];
+        Tara [color = aquamarine3];
     }
     Nadine -> Misty [color = maroon3];
+    Tara -> Yvonne [color = aquamarine3];
     
     subgraph clusterCarbonNight {
         label = "Carbon Night";
