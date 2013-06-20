@@ -83,8 +83,7 @@ digraph Mermaids {
         Yvonne;
         Charlotte [style = bold color = firebrick];
     }
-    Yvonne -> Carmel [lhead = clusterStinger];
-    Joan -> Yvonne [ltail = clusterMarigold color = red style = dotted arrowhead = inv];
+    Yvonne -> Gardenia [lhead = clusterStinger];
     Charlotte -> Tej [color = firebrick];
     
     subgraph clusterCharmingViolet {
