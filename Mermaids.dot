@@ -145,10 +145,8 @@ digraph Mermaids {
     
     subgraph clusterEmerald {
         label = Emerald;
-        Uma [color = dodgerblue3];
         Vivian [color = aquamarine3];
     }
-    Uma -> Leticia [color = dodgerblue3];
     Vivian -> Carmel2 [color = aquamarine3];
     
     subgraph clusterFuschia {
