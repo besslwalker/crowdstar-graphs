@@ -141,10 +141,8 @@ digraph Mermaids {
     
     subgraph clusterEmber {
         label = Ember;
-        Sheena;
         Sheena2 [color = olivedrab];
     }
-    Sheena -> Minerva [lhead = clusterTemptress];
     Sheena2 -> Iva [color = olivedrab];
     
     subgraph clusterEmerald {
