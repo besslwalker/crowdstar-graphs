@@ -147,7 +147,7 @@ digraph Mermaids {
         label = Emerald;
         Vivian [color = aquamarine3];
     }
-    Vivian -> Carmel2 [color = aquamarine3];
+    Vivian -> Gardenia [color = aquamarine3];
     
     subgraph clusterFuschia {
         label = Fuschia;
@@ -344,10 +344,10 @@ digraph Mermaids {
     subgraph clusterStinger {
         label = Stinger;
         Carmel [color = indigo];
-        Carmel2 [color = aquamarine3];
+        Gardenia [color = aquamarine3];
     }
     Carmel -> Callie [color = indigo];
-    Carmel2 -> Vivian [color = aquamarine3];
+    Gardenia -> Vivian [color = aquamarine3];
     
     subgraph clusterStoma {
         label = Stoma;
