@@ -432,9 +432,11 @@ digraph Mermaids {
     subgraph clusterVapor {
         label = Vapor;
         Pippa [color = darkgreen];
+        Ruth;
     }
     Pippa -> Tegan [color = darkgreen];
     Maya -> Pippa [ltail = clusterHoneyDew color = red style = dotted arrowhead = inv];
+    Ruth -> Francine [lhead = clusterSweetwater];
     
     subgraph clusterVelvetTwist {
         label = "Velvet Twist";
