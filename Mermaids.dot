@@ -312,7 +312,7 @@ digraph Mermaids {
         Fern [style = bold];
     }
     Larel -> Alma [color = orangered];
-    Fern -> Eloise [lhead = clusterInky];
+    Fern -> Lila [lhead = clusterInky];
     
     subgraph clusterSeafoam {
         label = Seafoam;
