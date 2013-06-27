@@ -127,11 +127,9 @@ digraph Mermaids {
     subgraph clusterCrystalline {
         label = Crystalline;
         Tamara [color = indigo];
-        Toma;
         Karin [color = mediumpurple];
     }
     Tamara -> Joan [color = indigo];
-    Toma -> Demi [lhead = clusterSeafoam];
     Karin -> Colette [color = mediumpurple];
     
     subgraph clusterDomino {
