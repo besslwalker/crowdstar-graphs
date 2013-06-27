@@ -93,11 +93,11 @@ digraph Mermaids {
     subgraph clusterCharmingViolet {
         label = "Charming Violet";
         Taryn [color = firebrick];
-        Suzi [style = bold];
+        Suzi [style = bold color = blue1];
         Tatum [color = cyan3];
     }
     Taryn -> Avery [color = firebrick];
-    Suzi -> Francine [lhead = clusterSweetwater];
+    Suzi -> Francine [color = blue1];
     Tatum -> Joy [color = cyan3];
     
     subgraph clusterCherry {
