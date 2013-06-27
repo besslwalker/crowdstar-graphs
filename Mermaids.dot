@@ -255,8 +255,10 @@ digraph Mermaids {
     subgraph clusterMidas {
         label = Midas;
         Valeria;
+        Luann;
     }
     Valeria -> Iva [lhead = clusterBlueNova];
+    Luann -> CRUSTACEA;
     
     subgraph clusterMint {
         label = Mint;
