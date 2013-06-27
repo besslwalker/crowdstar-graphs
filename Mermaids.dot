@@ -292,6 +292,12 @@ digraph Mermaids {
     }
     Velma -> Beatrice [color = dodgerblue3];
     
+    subgraph clusterPlume {
+        label = Plume;
+        Sally;
+    }
+    Sally -> Larel [lhead = clusterSeaDragon];
+    
     subgraph clusterRoseGold {
         label = "Rose Gold";
         Sherry [color = darkgreen];
