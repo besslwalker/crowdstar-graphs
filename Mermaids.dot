@@ -126,10 +126,8 @@ digraph Mermaids {
    
     subgraph clusterCrystalline {
         label = Crystalline;
-        Tamara [color = indigo];
         Karin [color = mediumpurple];
     }
-    Tamara -> Joan [color = indigo];
     Karin -> Colette [color = mediumpurple];
     
     subgraph clusterDomino {
@@ -212,7 +210,7 @@ digraph Mermaids {
         label = Isis;
         Inez;
     }
-    Inez -> Tamara [lhead = clusterCrystalline];
+    Inez -> Karin [lhead = clusterCrystalline];
     
     subgraph clusterKelp {
         label = Kelp;
@@ -340,7 +338,7 @@ digraph Mermaids {
     }
     Misty -> Nadine [color = maroon3];
     Rene -> Melinda [lhead = clusterTigra];
-    Margarita -> Tamara [lhead = clusterCrystalline];
+    Margarita -> Karin [lhead = clusterCrystalline];
     
     subgraph clusterSphyrna {
         label = Sphyrna;
