@@ -246,9 +246,9 @@ digraph Mermaids {
     
     subgraph clusterLum {
         label = Lum;
-        Mary;
+        Mary [color = indigo];
     }
-    Mary -> Demi [lhead = clusterSeafoam];
+    Mary -> Demi [color = indigo];
     
     subgraph clusterMarigold {
         label = Marigold;
