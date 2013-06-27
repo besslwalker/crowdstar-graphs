@@ -100,9 +100,9 @@ digraph Mermaids {
     
     subgraph clusterCherry {
         label = Cherry;
-        Gini;
+        Gini [color = aquamarine3];
     }
-    Gini -> Gardenia [lhead = clusterStinger];
+    Gini -> Gardenia [color = aquamarine3];
     
     subgraph clusterCitrine {
         label = Citrine;
