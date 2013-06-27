@@ -313,9 +313,12 @@ digraph Mermaids {
         label = "Sea Dragon"
         Larel [color = orangered];
         Fern [style = bold];
+        Corrine;
     }
     Larel -> Alma [color = orangered];
     Fern -> Lila [lhead = clusterInky];
+    Corrine -> Daphne [lhead = clusterBlueNova];
+    Sheena -> Corrine [color = red style = dotted arrowhead = inv];
     
     subgraph clusterSeafoam {
         label = Seafoam;
