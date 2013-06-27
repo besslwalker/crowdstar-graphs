@@ -78,7 +78,7 @@ digraph Mermaids {
         label = Carcha;
         Lani;
     }
-    Lani -> Tamara [lhead = clusterCrystalline];
+    Lani -> Karin [lhead = clusterCrystalline];
     
     subgraph clusterCelestia {
         label = Celestia;
