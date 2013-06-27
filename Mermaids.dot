@@ -76,9 +76,9 @@ digraph Mermaids {
     
     subgraph clusterCarcha {
         label = Carcha;
-        Lani;
+        Lani [color = mediumpurple];
     }
-    Lani -> Karin [lhead = clusterCrystalline];
+    Lani -> Karin [color = mediumpurple];
     
     subgraph clusterCelestia {
         label = Celestia;
