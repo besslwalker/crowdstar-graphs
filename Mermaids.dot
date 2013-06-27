@@ -302,7 +302,7 @@ digraph Mermaids {
         label = Plume;
         Sally;
     }
-    Sally -> Larel [lhead = clusterSeaDragon];
+    Sally -> Fern [lhead = clusterSeaDragon];
     
     subgraph clusterRoseGold {
         label = "Rose Gold";
