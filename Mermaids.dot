@@ -139,7 +139,7 @@ digraph Mermaids {
         label = Electra;
         Bianca;
     }
-    Bianca -> Iva [lhead = clusterBlueNova];
+    Bianca -> Daphne [lhead = clusterBlueNova];
     
     subgraph clusterEmber {
         label = Ember;
