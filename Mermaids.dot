@@ -98,6 +98,12 @@ digraph Mermaids {
     Suzi -> Francine [lhead = clusterSweetwater];
     Tatum -> Joy [lhead = clusterBelladonna];
     
+    subgraph clusterCherry {
+        label = Cherry;
+        Gini;
+    }
+    Gini -> Gardenia [lhead = clusterStinger];
+    
     subgraph clusterCitrine {
         label = Citrine;
         Audrey [color = chartreuse3];
