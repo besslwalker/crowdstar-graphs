@@ -3,9 +3,9 @@ digraph Mermaids {
     
     subgraph clusterAmakua {
         label = Amakua;
-        Wikolia;
+        Wikolia [color = orangered];
     }
-    Wikolia -> Larel [lhead = clusterSeaDragon];
+    Wikolia -> Larel [color = orangered];
     
     subgraph clusterAmore {
         label = Amore;
