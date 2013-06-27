@@ -190,8 +190,10 @@ digraph Mermaids {
     subgraph clusterHoneyDew {
         label = "Honey Dew";
         Maya;
+        Leona;
     }
     Maya -> Ruth [lhead = clusterVapor];
+    Leona -> Jada [lhead = clusterSunkiss];
     
     subgraph clusterInky {
         label = Inky;
