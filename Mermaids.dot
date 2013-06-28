@@ -160,7 +160,7 @@ digraph Mermaids {
         Heidi;
         Hayley [style = bold color = chartreuse3];
     }
-    Heidi -> Lillian [lhead = clusterTigerLily];
+    Heidi -> Elsa [lhead = clusterTigerLily];
     Hayley -> Aurora [color = chartreuse3];
     
     subgraph clusterGemini {
