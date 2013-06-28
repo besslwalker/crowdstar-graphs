@@ -451,8 +451,8 @@ digraph Mermaids {
     subgraph clusterVelvetTwist {
         label = "Velvet Twist";
         Avery [color = firebrick];
-        Bonita [style = bold];
+        Bonita [style = bold color = darkorange1];
     }
     Avery -> Taryn [color = firebrick];
-    Bonita -> Elsa [lhead = clusterTigerLily];
+    Bonita -> Elsa [color = darkorange1];
 }
