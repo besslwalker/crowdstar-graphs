@@ -132,8 +132,10 @@ digraph Mermaids {
     subgraph clusterDomino {
         label = Domino;
         Rena [color = purple1];
+        Lottie;
     }
     Rena -> Corrine [color = purple1];
+    Lottie -> Daphne [lhead = clusterBlueNova];
     
     subgraph clusterElectra {
         label = Electra;
