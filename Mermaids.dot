@@ -54,7 +54,7 @@ digraph Mermaids {
     }
     Iva -> Sheena [color = olivedrab];
     Bianca -> Iva [ltail = clusterElectra color = red style = dotted arrowhead = inv];
-    Daphne -> Rena [color = purple1];
+    Daphne -> Lottie [color = purple1];
     Valeria -> Daphne [ltail = clusterMidas color = red style = dotted arrowhead = inv];
     
     subgraph clusterCalypso {
