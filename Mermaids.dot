@@ -139,9 +139,11 @@ digraph Mermaids {
         label = Electra;
         Bianca [color = purple1];
         Milly;
+        Lea;
     }
     Bianca -> Daphne [color = purple1];
     Milly -> "FORTUNA SWIRLS" [lhead = clusterFortunaSwirls];
+    Lea -> Minerva [lhead = clusterTemptress];
     
     subgraph clusterEmber {
         label = Ember;
