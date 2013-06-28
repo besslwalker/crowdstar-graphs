@@ -384,11 +384,11 @@ digraph Mermaids {
         label = Sunkiss;
         Silvia [color = goldenrod2];
         Jada [style = bold color = maroon3];
-        Dawn [style = bold];
+        Dawn [style = bold color = firebrick];
     }
     Silvia -> Sterling [color = goldenrod2];
     Jada -> Nadine [color = maroon3];
-    Dawn -> Tej [lhead = clusterCarbonNight];
+    Dawn -> Tej [color = firebrick];
     
     subgraph clusterSunStar {
         label = "Sun Star";
