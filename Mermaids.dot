@@ -16,10 +16,10 @@ digraph Mermaids {
     subgraph clusterAqua {
         label = Aqua;
         Liana [style = bold color = chartreuse3];
-        Taleen;
+        Taleen [color = darkorange1];
     }
     Liana -> Claudia [color = chartreuse3];
-    Taleen -> Caroline [lhead = clusterCoral];
+    Taleen -> Caroline [color = darkorange1];
     
     subgraph clusterAries {
         label = Aries;
@@ -118,10 +118,10 @@ digraph Mermaids {
     subgraph clusterCoral {
         label = Coral;
         Claudia [color = chartreuse3];
-        Caroline [style = bold];
+        Caroline [style = bold color = darkorange1];
     }
     Claudia -> Audrey [color = chartreuse3];
-    Caroline -> Heidi [lhead = clusterFuschia];
+    Caroline -> Heidi [color = darkorange1];
    
     subgraph clusterCrystalline {
         label = Crystalline;
@@ -157,10 +157,10 @@ digraph Mermaids {
     
     subgraph clusterFuschia {
         label = Fuschia;
-        Heidi;
+        Heidi [color = darkorange1];
         Hayley [style = bold color = chartreuse3];
     }
-    Heidi -> Elsa [lhead = clusterTigerLily];
+    Heidi -> Elsa [color = darkorange1];
     Hayley -> Aurora [color = chartreuse3];
     
     subgraph clusterGemini {
@@ -413,10 +413,10 @@ digraph Mermaids {
     subgraph clusterTigerLily {
         label = "Tiger Lily";
         Lillian [color = steelblue2];
-        Elsa;
+        Elsa [color = darkorange1];
     }
     Lillian -> Makenna [color = steelblue2];
-    Elsa -> Heidi [lhead = clusterFuschia];
+    Elsa -> Heidi [color = darkorange1];
     
     subgraph clusterTigra {
         label = Tigra;
