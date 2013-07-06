@@ -404,6 +404,12 @@ digraph Mermaids {
     }
     Francine -> Jillian [color = blue1];
     
+    subgraph clusterSylvan {
+        label = Sylvan;
+        Sienna;
+    }
+    Sienna -> Rene [lhead = clusterSparklePinkle];
+    
     subgraph clusterTaurus {
         label = Taurus;
         Danika;
